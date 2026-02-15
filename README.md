@@ -31,9 +31,7 @@ room-booking-system/
 └── README.md
 ```
 
-## Mulai Cepat
 
-## Mulai Cepat
 
 Buka 2 terminal di folder root project ini.
 
@@ -52,32 +50,4 @@ npm run dev
 ```
 Frontend jalan di `http://localhost:3000`
 
-Buka browser, masuk ke `http://localhost:3000` - aplikasi siap dipakai!
-
-## Tech Stack
-
-## Tech Stack
-
-**Backend:**
-- ASP.NET Core 10.0 dengan C#
-- Entity Framework Core (ORM)
-- PostgreSQL (bisa diganti dengan SQL Server)
-
-**Frontend:**
-- React 18 + TypeScript
-- Vite (build tool yang super cepat)
-- Axios (untuk API calls)
-- CSS standar
-
-- Lihat semua ruangan & kapasitasnya
-- Pesan ruangan (otomatis cek ketersediaan tanggal/waktu yang sama)
-- Lihat history booking
-- Edit/hapus booking sendiri
-- Admin bisa kelola daftar ruangan
-- Respons cepat & bisa diakses di mobile
-
-## Catatan Development
-
-Aplikasi ini sudah fully functional dan siap pakai. Kedua service (backend & frontend) bisa berjalan simultaneously dan communicate via REST API.
-
-Database nyata (PostgreSQL) sudah integrated, jadi data persisten. Data sample seeded otomatis pas startup pertama kali.
+Buka browser, masuk ke `http://localhost:3000` 
