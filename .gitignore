@@ -1,0 +1,80 @@
+# Ignore dependencies
+node_modules/
+
+# Ignore production
+.gradle
+.m2repository
+*.jks
+*.keystore
+
+# Android
+android/app/debug
+android/app/release
+android/.gradle
+android/.idea
+android/local.properties
+android/app/build
+android/fastlane/report.xml
+android/fastlane/Preview.html
+android/fastlane/screenshots
+android/finalize_abi_dump.txt
+
+# iOS
+ios/Pods
+ios/Podfile.lock
+ios/Flutter/Flutter.podspec
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.plugin.podspec
+ios/Flutter/GeneratedPluginRegistrant.swift
+build/
+ios/Pods/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcworkspace
+xcuserdata/
+*.xccheckout
+*.moved-aside
+DerivedData
+.idea/
+*.hmap
+*.ipa
+
+# Misc
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+npm-error.log*
+lerna-debug.log*
+yarn-error.log*
+
+# Generated files
+coverage
+dist
+build
+.turbo
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
